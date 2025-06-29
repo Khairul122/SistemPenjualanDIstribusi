@@ -38,12 +38,6 @@
         <span class="menu-title">Data Pengiriman</span>
       </a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="?controller=user">
-        <i class="mdi mdi-account-settings menu-icon"></i>
-        <span class="menu-title">Manajemen User</span>
-      </a>
-    </li>
     <?php endif; ?>
     
     <?php if ($_SESSION['role'] == 'pimpinan'): ?>
